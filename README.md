@@ -11,7 +11,12 @@ To install dependencies:
 forge install
 ```
 
-Tu run the test:
+Tu run the test with Medusa:
 ```bash
 medusa fuzz
+```
+
+To run the test with Echinda:
+```bash
+echidna src/CryticTester.sol --contract CryticTester --config ./echidna.config.yaml
 ```

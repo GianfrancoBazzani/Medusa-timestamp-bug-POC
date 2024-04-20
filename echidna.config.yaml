@@ -1,0 +1,13 @@
+
+testMode: "assertion"
+prefix: "crytic_" # Not used when running in assertion mode
+coverage: true
+corpusDir: "./echidna_corpus"
+contractAddr: "0x00a329c0648769a73afac7f9381e08fb43dbea72" # Default contract address
+deployer: "0x30000"
+sender: ["0x10000", "0x20000", "0x30000"] 
+balanceAddr: 0x1043561a8829300000 
+balanceContract: 0x1043561a8829300000
+testLimit: 100000  
+seqLen: 10000 
+allContracts: false
